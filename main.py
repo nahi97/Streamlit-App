@@ -14,7 +14,7 @@ modeltraining = st.container()
 
 @st.cache_data #Caching the data
 def get_data(filename):
-    taxi_data= pd.read_parquet('data/fhvhv_tripdata_2023-01.parquet')
+    taxi_data= pd.read_csv('data/taxi_data.csv')
     return taxi_data
 
 
@@ -25,7 +25,7 @@ with header:
 with dataset:
     st.header("NYC Taxi Dataset ")
     st.text("I found this dataset on xyx.com")
-    taxi_data= get_data('data/fhvhv_tripdata_2023-01.parquet')
+    taxi_data= get_data('data/taxi_data.csv')
     st.write(taxi_data.head())
 
     st.subheader("Pickup location distribution from the NYC Dataset")
