@@ -59,10 +59,10 @@ with modeltraining:
         regr=RandomForestRegressor(max_depth=max_depth,n_estimators=n_estimators)
 
 
-    input_feature=sel_col.text_input("Which feature should be used as the input feature?",'trip_miles')
+    input_feature=sel_col.text_input("Which feature should be used as the input feature?",'trip_distance')
     
     X=taxi_data[[input_feature]]
-    y=taxi_data[['trip_miles']]
+    y=taxi_data[['trip_distance']]
 
     regr.fit(X,y)
 
