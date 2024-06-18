@@ -28,19 +28,21 @@ The project is organized into the following sections:
    git clone https://github.com/yourusername/Streamlit-App.git
    cd Streamlit-App
 
-Set up a virtual environment:
+2. **Set up a virtual environment**:
 ```sh
 python -m venv .venv
 source .venv/bin/activate  # On Windows, use `.venv\Scripts\activate`
 
-Install the required packages: 
+3. **Install the required packages**: 
 ```sh
 pip install -r requirements.txt
 
 
-Activate the virtual environment (if not already activated):
+4. **Activate the virtual environment (if not already activated)**:
+
+```sh
 source .venv/bin/activate  # On Windows, use `.venv\Scripts\activate`
 
-Run the Streamlit app:
+5. **Run the Streamlit app**:
 ```sh
 streamlit run app.py
