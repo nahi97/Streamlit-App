@@ -29,20 +29,20 @@ The project is organized into the following sections:
    cd Streamlit-App
 
 2. **Set up a virtual environment**:
-```sh
-python -m venv .venv
-source .venv/bin/activate  # On Windows, use `.venv\Scripts\activate`
+   ```sh
+   python -m venv .venv
+   source .venv/bin/activate  # On Windows, use `.venv\Scripts\activate`
 
 3. **Install the required packages**: 
-```sh
-pip install -r requirements.txt
+   ```sh
+   pip install -r requirements.txt
 
 
 4. **Activate the virtual environment (if not already activated)**:
 
-```sh
-source .venv/bin/activate  # On Windows, use `.venv\Scripts\activate`
-
+   ```sh
+   source .venv/bin/activate  # On Windows, use `.venv\Scripts\activate`
+   
 5. **Run the Streamlit app**:
-```sh
-streamlit run app.py
+   ```sh
+   streamlit run app.py
